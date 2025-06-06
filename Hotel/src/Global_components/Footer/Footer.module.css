@@ -1,0 +1,45 @@
+.footer {
+  background-color: #2a2a2a;
+
+  color: #fff;
+
+  border-top: 3px solid rgb(199, 163, 122);
+
+  padding: 30px 20px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .footerContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.socialLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.socialLinks img {
+  width: 50px;
+  height: 50px;
+}
+
+.footerContacts address {
+  font-style: normal;
+  font-size: 18px;
+  
+  margin-bottom: 10px;
+}
+
+.colorText {
+  color: rgb(199, 163, 122);
+}
