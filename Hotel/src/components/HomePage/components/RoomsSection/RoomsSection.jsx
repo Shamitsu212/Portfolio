@@ -1,20 +1,26 @@
 import { useState } from 'react';
 import styles from './RoomsSection.module.css';
-import room from "../../source/pic/black.jpg";
+import room1_1 from "../../source/pic/room1_1.png";
+import room1_2 from "../../source/pic/room1_2.png";
+import room1_3 from "../../source/pic/room2_1.png";
+import room2_1 from "../../source/pic/room2_1.png";
+import room2_2 from "../../source/pic/room1_3.png";
+import room2_3 from "../../source/pic/room2_2.png";
+
 
 function RoomsSection() {
   const [currentRoom, setCurrentRoom] = useState(0);
 
   const roomsData = [
     {
-      mainImage: room,
-      price: 6200,
-      smallImages: [room, room]
+      mainImage: room1_1,
+      price: 1299,
+      smallImages: [room1_2, room1_3]
     },
     {
-      mainImage: room,
-      price: 7500,
-      smallImages: [room, room]
+      mainImage: room2_2,
+      price: 1100,
+      smallImages: [room2_1, room2_3]
     },
   ];
 

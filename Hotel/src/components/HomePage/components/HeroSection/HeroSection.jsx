@@ -11,7 +11,7 @@ function HeroSection() {
           Ваш браузер не поддерживает видео.
         </video>
         <div className={styles.videoOverlay}></div>
-        <h1 className={styles.heroTitle}>Лучший отдых на Азовском море у нас</h1>
+        <h1 className={styles.heroTitle}>Лучший отдых на Азовском море</h1>
       </div>
     </section>
   );

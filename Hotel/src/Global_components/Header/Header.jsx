@@ -27,7 +27,7 @@ const Header = () => {
       <div className={`${styles.header__content} ${isMenuOpen ? styles.mobileMenuOpen : ''}`}>
         <address className={styles.header__addres}>
           <span className={styles.addres__text}>
-            Адрес:<span className={styles.colorText}> Улица Пушкина XX</span>
+            Адрес:<span className={styles.colorText}> Приморский бульвар, 7</span>
           </span>
           <span className={styles.addres__text}>
             <img src={telegram} alt="Telegram" className={styles.text__image} />

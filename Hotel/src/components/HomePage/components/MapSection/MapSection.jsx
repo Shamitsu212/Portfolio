@@ -5,7 +5,7 @@ function MapSection() {
     <section className={styles.mapSection}>
       <div className={styles.mapContainer}>
         <iframe
-          src="https://yandex.ru/map-widget/v1/?ll=37.550109%2C47.082661&mode=poi&poi%5Bpoint%5D=37.548437%2C47.082817&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D40913906889&z=16.72"
+          src="https://yandex.ru/map-widget/v1/org/gostinitsa_chayka/1723864294/?ll=37.539760%2C47.083273&z=16.2"
           width="100%"
           height="400"
           frameBorder="1"
@@ -17,3 +17,4 @@ function MapSection() {
 }
 
 export default MapSection;
+
